@@ -1,0 +1,60 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Database files
+*.sqlite3
+*.db
+
+# Local settings
+local_settings.py
+
+# Static files
+/static/
+*.log
+
+# Media files
+/media/
+
+# Environment variables
+.env
+*.env
+
+# Pytest
+.cache
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test and coverage
+.coverage
+coverage.xml
+*.cover
+
+# Build directories
+build/
+dist/
+.eggs/
+
+# Python package
+*.egg-info/
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
